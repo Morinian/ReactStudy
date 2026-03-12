@@ -1,0 +1,8 @@
+.Top{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
