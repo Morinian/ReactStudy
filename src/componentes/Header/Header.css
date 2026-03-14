@@ -5,4 +5,67 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+.Top h3
+{
+    color: white;
+    font-size: 30px;
+    width: 500px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Guia
+{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button
+{
+    width: 130px;
+    height: 40px;
+    background-color: #e97132;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+.Area
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Area button
+{
+    width: 30%;
+    height: 50px;
+}
+
+.Footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(22, 22, 22);
+}
+.Footer h3
+{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

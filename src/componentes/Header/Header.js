@@ -7,7 +7,7 @@ export function Header(){
         <div>
             <div className='Top'>
                 <h3>Senac BCC</h3>
-                <div>
+                <div className='Guia'>
                     <button>Limpar eventos</button>
                     <button>Trocar tema</button>
                 </div>
