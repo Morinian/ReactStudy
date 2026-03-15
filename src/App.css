@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.Area
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Lista{
+    width: 80%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Area .Lista button
+{
+    width: 30%;
+    height: 50px;
+}

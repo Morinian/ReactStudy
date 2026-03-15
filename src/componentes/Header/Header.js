@@ -1,6 +1,6 @@
 import './Header.css';
 
-export function Header(){
+export function Header({setExercicio}){
 
 
     return (
@@ -8,7 +8,7 @@ export function Header(){
             <div className='Top'>
                 <h3>Senac BCC</h3>
                 <div className='Guia'>
-                    <button>Limpar eventos</button>
+                    <button onClick={() => setExercicio(0)}>Limpar eventos</button>
                     <button>Trocar tema</button>
                 </div>
             </div>
