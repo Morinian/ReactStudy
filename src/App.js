@@ -1,6 +1,7 @@
 import {Header} from './componentes/Header/Header.js'
 import {Footer} from './componentes/footer.js'
 import {Calculadora} from './componentes/Calculadora.js'
+import {Cidades} from './componentes/Cidades.js'
 import './App.css';
 import { useState } from 'react';
 
@@ -20,7 +21,7 @@ function App() {
             <div className='Exercicio'>
               {exercicio === 1 ? <Calculadora/> : null}
               {exercicio === 2 ? <Calculadora/> : null}
-              {exercicio === 3 ? <Calculadora/> : null}
+              {exercicio === 3 ? <Cidades/> : null}
             </div>
         </div>
       <Footer/>
